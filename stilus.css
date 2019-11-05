@@ -1,0 +1,258 @@
+
+#fooldal{
+	background-image: url(csalad.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+body{
+	margin:0;
+	
+	
+}
+
+ul {
+ 	margin: 0px;
+ 	padding: 0px;
+ 	list-style: none;
+ 	font-family: arial;
+}
+
+ul li {
+ 	float: left;
+ 	width: 200px;
+ 	height: 50px;
+ 	background-color: black;
+ 	opacity: .8;
+ 	line-height: 50px;
+ 	text-align: center;
+ 	font-size: 30px;
+}
+
+ul li a {
+ 	text-decoration: none;
+ 	color: white;
+ 	display: block;
+}
+
+ul li a:hover {
+ 	background-color: green;
+}
+
+ul li ul li{
+ 	display: none;
+}
+
+ul li:hover ul li {
+ 	display: block;
+}
+
+#menu{
+	margin-left: 670px;
+	margin-top: 40px;
+}
+
+#cim1{
+	width: 1000px;
+	height: 200px;
+	text-align: center;
+	margin: auto;
+	margin-top: 110px;
+	font-size: 32px;
+}
+#kep1{
+	width: 75px;
+	height:150px;
+	margin: auto;
+	margin-top: -20px;
+}
+
+
+/* Termekekre vonatkozo */
+a{
+	color: white;
+	text-decoration: none;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+margin-top:20px;
+  text-align: center;
+  font-family: arial;
+  float: left;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: green;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+
+#oldal2{
+	margin-left:500px;
+	margin-right:500px;
+}
+
+#termekek{
+	text-align: center;
+	font-family: 'Bitter', serif;
+	font-size: 40px;
+}
+
+.oldalkep{
+	width: 100%;
+}
+/* telefonok */
+
+.telefonkep{
+	width: 50%;
+    float: left;
+}
+
+.telefoncim{
+	text-align: center;
+	margin-right: 200px;
+	font-family: 'Roboto Slab', serif;
+	font-size: 40px;
+}
+
+.gomb{
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  margin-left: 40%;
+  cursor: pointer;
+}
+
+table {
+	font-family: arial, sans-serif;
+	border-collapse: collapse;
+	width: 600px;
+	font-size: 24px;
+	float: left;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+#tablazat{
+	width: 50%;
+	float: right;
+	margin-top: 50px;
+}
+
+#telefonoldal{
+	margin-left: 200px;
+}
+
+#menuplusz{
+	margin-left: -200px;
+}
+
+/*rendelés*/
+
+#rendeles{
+	margin-top: 20px;
+	margin-left: 300px;
+	margin-right: 300px;
+	background-color:  #6ec2f2;
+}
+
+h3{
+	font-size: 36px;
+	margin-bottom: -5px;
+}
+
+.container {
+  max-width: 640px;
+  margin: 50px auto;
+  padding: 35px;
+  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
+  background: #fff;
+  border-radius: 10px;
+}
+
+select{
+	font-size: 20px;
+	color: gray;
+}
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 20px;
+}
+
+#menupluszplusz{
+	margin-left:-310px;
+
+}
+
+#rendelesgomb{
+	margin-left: -30px;
+}
+
+/*rolunk*/
+
+.rolunkcim{
+	font-size: 36px;
+	text-align: center;
+}
+
+.telefon{
+	color: blue;
+	font-size: 20px;
+}
+
+#cim{
+	text-align: center;
+	border-radius: 10px;
+	background-color: #cceeff;
+}
+
+h5{
+	font-size: 22px;
+	margin-bottom: 0px;
+}
+
+iframe{
+	border-radius: 10px;
+}
+
+#tell{
+	margin-top: 10px;
+}
+
